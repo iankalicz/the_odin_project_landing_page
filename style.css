@@ -1,0 +1,153 @@
+/* style for the whole body */
+body {
+    display: flex;
+    flex-direction: column;
+    outline-style: none;
+    border-style: none;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.darkBackground {
+    background-color: #1F2937;
+}
+
+/* style of the nav bar and the first quarter */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15%;
+}
+
+#headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#navLinks {
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #E5E7EB;
+        margin: 0 15px;
+    }
+}
+
+#firstQuarter {
+    display: flex;
+    justify-content: center;
+    padding: 0 15% 10% 15%;
+
+    #firstQuarterText {
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            color: #F9FAF8;
+        }
+
+        .smallText {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+
+        button {
+            background-color: #3882F6;
+            color: #F9FAF8;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 25px;
+        }
+
+    }
+
+    figure {
+        display: flex;
+        width: 1500px;
+        height: 250px;
+        background-color: rgba(255, 255, 255, 0.37);
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+/* style of the second quarter */
+#secondQuarter {
+    text-align: center;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 800;
+        color: #1F2937;
+
+    }
+}
+
+#secondQuarterImages {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15% 10% 15%;
+
+    figure {
+        p {
+            display: flex;
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            border: 5px solid #3882F6;
+        }
+    }
+}
+
+
+/* style of the third quarter */
+#thirdQuarter {
+    background-color: #E5E7EB;
+    padding: 5% 25%;
+
+
+    blockquote {
+        font-size: 36px;
+        font-weight: lighter;
+        font-style: italic;
+        color: #1F2937;
+    }
+
+    p {
+        text-align: right;
+        font-weight: 800;
+    }
+}
+
+/* style of the fourth quarter */
+#fourthQuarter {
+    #callAction {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3882F6;
+        color: #F9FAF8;
+        margin: 5% 15%;
+        padding: 20px 150px;
+        border-radius: 10px;
+
+        #callActionButton {
+            button {
+                background-color: #3882F6;
+                color: #F9FAF8;
+                border-color: #F9FAF8;
+                border-radius: 5px;
+                padding: 5px 25px;
+            }
+        }
+    }
+}
+
+
+/* style of the footer */
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 50px 0;
+}
